@@ -1,0 +1,99 @@
+<html>
+
+
+    <title>paint color box</title>
+
+	<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+        
+		
+		
+		<style>
+		
+	
+
+  .div {
+  background: green;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  left: 20px;
+ 
+   
+ 
+}
+.div:before,
+.div:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  background: green;
+  z-index: -10;
+  
+  }
+.div:before {
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+ 
+}
+.div:after {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+
+}
+div:nth-child(2) {
+  transform: rotate(7.5deg)
+
+  }
+.div:nth-child(3) {
+  transform: rotate(15deg)
+
+  }
+div:nth-child(4) {
+  transform: rotate(22.5deg)
+
+  }
+  
+  .className{
+    transform:rotate(-22deg);
+    
+}
+		 
+		</style>
+
+			<body>
+				<table>
+				
+					<tr>
+						<td style="height:350px">
+						
+							<div class="div"></div><div class="div"></div><div class="div"></div>
+							<div class="div"><p style="font-size:20px;color:white;font-size:12px" class="className">Just&nbsp;<span class="fa fa-rupee" style="font-size:10px">&nbsp;4000</span>
+								<br><span>per user</span>
+									
+							</p></div>
+							
+							
+						</td>
+					
+					
+					</tr>
+					
+				</table>	
+				
+			</body>
+		
+		
+			
+		
+             
+
+</html>
